@@ -1,0 +1,25 @@
+body{
+    background: rgb(53, 53, 112);
+
+}
+/*center{
+    margin-top: 10%;
+    border: 1px solid;
+}*/
+
+#diop{
+    background-color: rgb(53, 53, 112) ;
+    width: 200px;
+    height: 270px;
+    border: 100px solid red;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 5%;
+    text-align: left;
+color: white;
+}
+#frederic{
+    
+}
+
+

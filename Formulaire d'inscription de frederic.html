@@ -1,0 +1,41 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <!--importer le fichier de style-->
+        <link rel="stylesheet" href="Formulaire d'inscription de frederic.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulaired'inscription de frederic</title>
+        <script language="javascript">
+            function validateAge () {
+                var Age= parseInt(document.getElementById("age").value);
+                if ( Age >= 18) {
+                    alert("vous êtes majeur");
+                }
+                else{
+                    alert("vous êtes pas majeur");
+                }
+            }
+</script>
+
+    </head>
+    <body> 
+        <center>
+            <h4> formulaire d'inscription</h4>
+            <div id="diop">
+        <form >    
+                <p>Prénom:</p>             
+                <input type="text" name="Prénom"><br>             
+                <p>Nom:</p>             
+                <input type="text" name="Nom"><br>             
+                <p>Age:</p>             
+                <input type="number" name="Age" id="age"><br>             
+                <br>             
+                <input type="submit" value="Valider" name="Valider" onclick="validateAge()">              
+                <input type="reset" value="Effacer" name="Effacer">           
+            </div>         
+            </form>
+        </div>
+       
+        
